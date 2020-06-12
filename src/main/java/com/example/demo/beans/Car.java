@@ -7,4 +7,8 @@ public class Car {
 		System.out.println("start method");
 		int i=10;
 	}
+        public void stop(){
+          //HIS-200 changes
+          //logic goes here
+}  
 }
