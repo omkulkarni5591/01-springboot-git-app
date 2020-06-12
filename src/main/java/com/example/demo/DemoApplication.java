@@ -6,11 +6,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class DemoApplication {
-
+    HashMap<String,Integer> hashMap=new HashMap();
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx=SpringApplication.run(DemoApplication.class, args);
 		//changes for 134
 		ctx.close();
 	}
-
+    public void storeCache(){
+		//Feature 301 chages
+		//logic goes here
+	}
 }
