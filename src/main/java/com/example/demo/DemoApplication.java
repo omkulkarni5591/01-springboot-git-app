@@ -6,11 +6,17 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class DemoApplication {
-         private static final String restUrl="www./sbibank.com"
+
+    HashMap<String,Integer> hashMap=new HashMap();
+    private static final String restUrl="www./sbibank.com"
+
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx=SpringApplication.run(DemoApplication.class, args);
 		//changes for 134
 		ctx.close();
 	}
-
+    public void storeCache(){
+		//Feature 301 chages
+		//logic goes here
+	}
 }
